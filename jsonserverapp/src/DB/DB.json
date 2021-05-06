@@ -1,0 +1,93 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "first_name": "Customer_1",
+      "last_name": "Customer_11",
+      "email": "customer1@mail.com",
+      "phone": "00000000000",
+      "address": "Customer_1 Address",
+      "description": "Customer_1 description"
+    },
+    {
+      "id": 2,
+      "first_name": "Customer_2",
+      "last_name": "Customer_2",
+      "email": "customer2@mail.com",
+      "phone": "00000000000",
+      "address": "Customer_2 Adress",
+      "description": "Customer_2 Description"
+    },
+    {
+      "first_name": "Aashish",
+      "last_name": "Dahal",
+      "email": "aashdahal@gmail.com",
+      "phone": "9849949608",
+      "address": "Thimi, Bhaktapur",
+      "description": "No description",
+      "id": 3
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "message": "This is my Todo"
+    },
+    {
+      "id": 2,
+      "message": "This is my New Todo"
+    },
+    {
+      "message": "samg",
+      "id": 3
+    },
+    {
+      "message": "samg",
+      "id": 4
+    },
+    {
+      "message": "samg",
+      "id": 5
+    },
+    {
+      "message": "",
+      "id": 6
+    },
+    {
+      "message": "hello sir ji",
+      "id": 7
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "first_name": "Student_1",
+      "last_name": "Customer_11",
+      "email": "customer1@mail.com",
+      "phone": "00000000000",
+      "address": "Customer_1 Address",
+      "description": "Customer_1 description"
+    },
+    {
+      "id": 2,
+      "first_name": "Student_2",
+      "last_name": "Customer_2",
+      "email": "customer2@mail.com",
+      "phone": "00000000000",
+      "address": "Customer_2 Adress",
+      "description": "Customer_2 Description"
+    },
+    {
+      "first_name": "Aashish",
+      "last_name": "Dahal",
+      "email": "aashdahal@gmail.com",
+      "phone": "9849949608",
+      "address": "Thimi, Bhaktapur",
+      "description": "No description",
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ]
+}
