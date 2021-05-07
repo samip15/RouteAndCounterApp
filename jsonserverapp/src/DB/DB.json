@@ -30,32 +30,16 @@
   ],
   "todos": [
     {
-      "id": 1,
-      "message": "This is my Todo"
-    },
-    {
-      "id": 2,
-      "message": "This is my New Todo"
-    },
-    {
-      "message": "samg",
-      "id": 3
-    },
-    {
-      "message": "samg",
-      "id": 4
-    },
-    {
-      "message": "samg",
-      "id": 5
-    },
-    {
-      "message": "",
-      "id": 6
-    },
-    {
       "message": "hello sir ji",
       "id": 7
+    },
+    {
+      "message": "ram ko todo edited",
+      "id": 8
+    },
+    {
+      "message": "hello ram ji kata ho kati ramro padeko??lol",
+      "id": 9
     }
   ],
   "students": [

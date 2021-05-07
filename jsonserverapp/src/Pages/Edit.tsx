@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Button, Form } from "react-bootstrap";
+import { useHistory } from "react-router-dom";
 import Header from "../Components/Header";
 
 interface ITodo {
@@ -9,6 +10,7 @@ interface ITodo {
   }
   
   const Edit = (props: any) => {
+    const history = useHistory();
     const [myTodo, setMyTodo] = useState({} as ITodo);
     console.log(props);
     const id = props.match.params.id;
@@ -20,9 +22,20 @@ interface ITodo {
       getTodo();
     }, []);
   
-    const handleInputChange = () => {};
+    const handleInputChange = (event:any) => {
+      setMyTodo({
+        ...myTodo,
+        message: event.target.value,
+      });
+    };
   
-    const handleSubmit = () => {};
+    const handleSubmit = async () => {
+      let response = await axios.patch(
+        `http://localhost:4000/todos/${id}`,
+        myTodo
+      );
+      history.push("/home");
+    };
     return (
       <Header>
         <h3> Welcome to todo edit page</h3>

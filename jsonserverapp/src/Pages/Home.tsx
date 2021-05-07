@@ -35,6 +35,11 @@ const Home = () => {
     history.push("/add");
   };
 
+  const deleteTodo = async (id: number) => {
+    let response = await axios.delete(`http://localhost:4000/todos/${id}`);
+    getTodos();
+  };
+
   return (
     <>
       <Header>
@@ -51,6 +56,14 @@ const Home = () => {
                 variant="primary"
               >
                 Edit
+              </Button>
+              <Button
+                onClick={() => {
+                  deleteTodo(todo.id);
+                }}
+                variant="warning"
+              >
+                Delete
               </Button>
             </Card>
           ))}
