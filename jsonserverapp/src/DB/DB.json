@@ -34,6 +34,22 @@
       "id": 7
     },
     {
+      "id": 1,
+      "category": [
+        "health",
+        "personal"
+      ],
+      "message": "Drink water every 30 minuets"
+    },
+    {
+      "id": 2,
+      "category": [
+        "health",
+        "personal"
+      ],
+      "message": "Drink water every 30 minuets"
+    },
+    {
       "message": "ram ko todo edited",
       "id": 8
     },
